@@ -1,0 +1,48 @@
+/ memory-matching-game-gui/memory-matching-game-gui/resources/styles.qss
+
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QLabel {
+    font-size: 18px;
+    color: #333;
+}
+
+QWidget#CardWidget {
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+}
+
+QWidget#GameBoard {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+QStatusBar {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
